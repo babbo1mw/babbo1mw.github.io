@@ -1,0 +1,142 @@
+
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+div {
+  block;
+}
+
+/*header section*/
+
+
+header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  text-align: right;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  top: 0px;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav {
+  display: inline-block;
+  flex-grow: 1;
+  padding-right: 20px;
+}
+
+nav span a {
+  text-decoration: underline;
+  color: seashell;
+  text-align: right;
+  display: inline-block;
+  padding: 10px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content {
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 70px;
+    width: 1200px;
+}
+/*mission section*/
+#mission {
+  height: 700px;
+  background-image: url(img/img-mission-background.jpg);
+  width: 1200px;
+  padding-top: 70px;
+  margin: auto;
+  margin-top: 0px;
+
+}
+
+#mission .text{
+  background-color: black;
+  margin: auto;
+  width: 100%;
+    padding: 0px
+
+}
+
+/*featured tea section*/
+
+#featured-tea {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 100px;
+  padding-top: 70px;
+}
+.pic {
+  padding: 10px;;
+}
+.pic span {
+  padding-top: 10px;
+  display: block;
+}
+.pic img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding: 5px;
+}
+
+/*location section*/
+#locations {
+  height: 500px;
+  background-image: url(img/img-locations-background.jpg);
+  padding-top: 70px;
+}
+
+#locations .container{
+  margin: auto;
+  width: 1100px;
+}
+
+.container .locations {
+  padding-top: 5px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact {
+  height: 200px;
+}
+
+/* Footer Section */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
