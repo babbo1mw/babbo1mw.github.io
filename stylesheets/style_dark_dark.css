@@ -657,7 +657,7 @@ body.scale-effect .btn-holder .btn-play {
   display: block;
   width: 100%;
   height: 570px;
-  background: url("../images/backgrounds/Avertra_background.jpg") no-repeat;
+  background: url("../images/backgrounds/seaplanet.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -2504,4 +2504,11 @@ hr {
 
 .single-footer {
   margin: 0;
+}
+
+
+
+/*Custom stuuf*/
+.summary-list li{
+list-style: square inside !important;
 }
