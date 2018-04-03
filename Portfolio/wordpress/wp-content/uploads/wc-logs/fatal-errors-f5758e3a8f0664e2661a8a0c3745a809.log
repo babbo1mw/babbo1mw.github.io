@@ -1,0 +1,36 @@
+2018-03-28T15:22:16+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in /Applications/MAMP/htdocs/wordpress/wp-content/themes/draft-understrap-child-theme/header.php:73
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/themes/understrap/index.php(14): get_header()
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-03-28T15:22:24+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in /Applications/MAMP/htdocs/wordpress/wp-content/themes/draft-understrap-child-theme/header.php:73
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/themes/understrap/index.php(14): get_header()
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
+2018-03-28T15:23:08+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in /Applications/MAMP/htdocs/wordpress/wp-content/themes/draft-understrap-child-theme/header.php:73
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(688): require_once()
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/themes/understrap/index.php(14): get_header()
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown
+
